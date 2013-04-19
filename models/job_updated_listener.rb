@@ -15,6 +15,6 @@ class JobUpdatedListener
     logger.info("update - #{item.native.name} (#{item.native.inspect})")
     logger.info item.native.getPublishersList().inspect
     logger.info item.native.getBuildWrappers().inspect
-    logger.info item.native.getBuildWrappers().class
+    logger.info item.native.getBuildWrappers().class.to_s
   end
 end

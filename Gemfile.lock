@@ -1,0 +1,18 @@
+PATH
+  remote: ~/gems/jenkins.rb/ruby-runtime
+  specs:
+    jenkins-plugin-runtime (0.2.3)
+      json
+      slop (~> 3.0.2)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    json (1.7.7)
+    slop (3.0.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  jenkins-plugin-runtime!

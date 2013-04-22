@@ -1,0 +1,16 @@
+language: ruby
+script: bundle exec rake spec:$SUITE
+rvm:
+  - jruby
+notifications:
+  email:
+    recipients:
+      - drnicwilliams@gmail.com
+    on_success: change
+    on_failure: always
+env:
+  matrix:
+    - SUITE=unit
+    # - SUITE=integration
+  global:
+    - secure: ""
